@@ -51,6 +51,12 @@ function App() {
       </form>
 
       <h2>{text}</h2>
+      <p id="autor">
+        <a href="https://github.com/Alinkll/weatner-app-react" target="_blank">
+          Open-source code{" "}
+        </a>
+        by Alina Klimberh
+      </p>
     </div>
   );
 }
