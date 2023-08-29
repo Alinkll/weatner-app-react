@@ -52,7 +52,11 @@ function App() {
 
       <h2>{text}</h2>
       <p id="autor">
-        <a href="https://github.com/Alinkll/weatner-app-react" target="_blank">
+        <a
+          href="https://github.com/Alinkll/weatner-app-react"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open-source code
         </a>
         by Alina Klimberh
