@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./Weather";
 import axios from "axios";
+import Weather from "./Weather";
 
 function App() {
   let [city, setCity] = useState(" ");
@@ -43,6 +45,7 @@ function App() {
 
   return (
     <div class="App">
+      <Weather />
       <h1>Weather App</h1>
 
       <form onSubmit={handleSubmit}>
