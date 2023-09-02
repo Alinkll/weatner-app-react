@@ -49,7 +49,7 @@ li {
 }
 #weather {
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   margin-left: 0;
 }
 #weather::first-letter {
