@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CurrentDate from "./CurrentDate";
+
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
@@ -7,9 +7,6 @@ import axios from "axios";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ action: false });
   const [city, setCity] = useState(props.defaultCity);
-
-  let [text, setText] = useState("");
-  let [temperature, setTemperature] = useState(null);
 
   function handleResponse(response) {
     console.log(response.data);

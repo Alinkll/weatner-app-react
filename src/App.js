@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import "./Weather";
-import axios from "axios";
+
 import Weather from "./Weather";
 
 function App() {

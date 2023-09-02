@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import CurrentDate from "./CurrentDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
-import axios from "axios";
 
 export default function WeatherInfo(props) {
   return (
