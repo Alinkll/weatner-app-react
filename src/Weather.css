@@ -28,8 +28,8 @@ li {
   min-height: 400px;
 }
 .btn-primary {
-  background: #885df1 !important;
-  border-color: #885df1 !important;
+  background: lightgray !important;
+  border-color: lightgrey !important;
 }
 .tempDigit {
   font-size: 70px;
