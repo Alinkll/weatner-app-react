@@ -27,6 +27,10 @@ li {
   min-width: 600px;
   min-height: 400px;
 }
+.btn-primary {
+  background: #885df1 !important;
+  border-color: #885df1 !important;
+}
 .tempDigit {
   font-size: 70px;
 }
