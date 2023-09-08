@@ -23,7 +23,9 @@ li {
   padding: 20px;
   margin: 30px auto;
   max-width: 600px;
-  max-height: 500px;
+  max-height: 400px;
+  min-width: 600px;
+  min-height: 400px;
 }
 .tempDigit {
   font-size: 70px;
@@ -37,6 +39,10 @@ li {
   border: solid 2px gray;
   border-radius: 30px;
   text-align: center;
+  max-height: 170px;
+  max-width: 80px;
+  min-height: 170px;
+  min-width: 80px;
 }
 .card p {
   margin-bottom: 2px;
